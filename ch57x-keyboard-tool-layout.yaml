@@ -1,0 +1,12 @@
+orientation: normal
+rows: 2
+columns: 3
+knobs: 1
+layers:
+  - buttons:
+      - [numpad1, numpad2, numpad3]
+      - [numpad4, numpad5, play]
+    knobs:
+      - ccw: volumedown
+        press: play
+        cw: volumeup
