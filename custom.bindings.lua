@@ -106,5 +106,7 @@
 
 hl.bind("XF86Tools", hl.dsp.exec_cmd("/home/fargly/.local/bin/float-bottom-right.sh"))
 hl.bind("XF86Launch5", hl.dsp.exec_cmd("/home/fargly/.local/bin/float-bottom-left.sh"))
+hl.bind("XF86Launch7", hl.dsp.exec_cmd("/home/fargly/.local/bin/float-top-right.sh"))
+hl.bind("XF86Launch8", hl.dsp.exec_cmd("/home/fargly/.local/bin/float-top-left.sh"))
 
 
