@@ -101,6 +101,10 @@
 --   hl.dispatch(hl.dsp.spawn({ cmd = "/home/fargly/.local/bin/float-bottom-right.sh" }))
 -- end)
 
-hl.bind("F12", hl.dsp.exec_cmd("/home/fargly/.local/bin/float-bottom-right.sh"))
+-- hl.bind("F13", hl.dsp.exec_cmd("/home/fargly/.local/bin/float-bottom-right.sh"))
+-- hl.bind("F14", hl.dsp.exec_cmd("/home/fargly/.local/bin/float-bottom-left.sh"))
+
+hl.bind("XF86Tools", hl.dsp.exec_cmd("/home/fargly/.local/bin/float-bottom-right.sh"))
+hl.bind("XF86Launch5", hl.dsp.exec_cmd("/home/fargly/.local/bin/float-bottom-left.sh"))
 
 
